@@ -125,6 +125,9 @@ body {
 
 .nav-contacts {
   color: var(--text-color);
+  display: flex;
+  align-items: center;
+ 
 }
 
 .nav-contacts-list,
@@ -133,14 +136,26 @@ body {
   align-items: center;
 }
 
+.icon-envelope,.icon-phone{
+margin-right: 10px;
+fill: currentColor;
+}
+
+
 
 /* < !-- секція hero --> */
 .hero {
   padding-top: 200px;
   padding-bottom: 200px;
-  background-color: var(--hero-bcc);
-
 }
+.hero-background{
+  background-color: var(--hero-bcc);
+ background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)),url(../images/background.jpg);
+  background-repeat:no-repeat; 
+  background-size: 1600px;
+  background-position:center;
+}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -202,7 +217,7 @@ margin-right: auto;
 
 .benefits-list {
   display: flex;
-  align-items: center;
+ 
 
 }
 .benefits-item:not(:last-child),
@@ -220,6 +235,17 @@ margin-right: auto;
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 10px;
+}
+.benefit-background{
+  display: flex;
+  background-color:var(--team-color);
+  height: 120px;
+  align-items: center;
+ 
+}
+.icon{
+ margin-left: auto;
+ margin-right: auto;
 }
 /* <!-- Чим ми займаємося --> */
 .our-work {
@@ -246,6 +272,10 @@ margin-right: auto;
 }
 
 /* < !-- Наша команда --> */
+.team-box{
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+}
 .team-list {
   display: flex;
   align-items: center;
@@ -271,13 +301,37 @@ margin-right: auto;
 }
 .position-box{
   padding: 30px 70px;
-  
-  border-radius: 0px 0px 4px 4px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
-
-
+.social{
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 30px;
+  padding-left: 32px;
+}
+.social-list{
+  display: flex;
+ 
+  height: 44px;
+  gap: 10px;
+}
+.social-item{
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+}
+.social-link{
+  display: flex;
+  align-items: center;
+}
+.icon{
+  fill:#AFB1B8;
+}
+.icon:hover{
+  fill: #fff;
+}
+.social-item:hover{
+  background-color: #2196f3;
+}
 /* footer */
 
 
