@@ -5,7 +5,7 @@
   --white: #ffffff;
   --team-color: #f5f4fa;
   --button-active: #188ce8;
-  --hero-bcc:#C4C4C4;
+  --hero-bcc: #c4c4c4;
   --font-family-main: 'Roboto', sans-serif;
   --font-family-logo: 'Raleway';
   --border-color: #eeeeee;
@@ -152,7 +152,6 @@ body {
   background-position: center;
 }
 
-
 .hero-title {
   font-weight: 900;
   font-size: 44px;
@@ -234,9 +233,8 @@ body {
   justify-content: center;
 }
 .icon-benefit {
-
-  width:65px;
-   height:70px;
+  width: 65px;
+  height: 70px;
 }
 /* <!-- Чим ми займаємося --> */
 .our-work {
@@ -263,7 +261,7 @@ body {
 
 /* < !-- Наша команда --> */
 .team-box {
-background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
@@ -291,18 +289,17 @@ background: #FFFFFF;
   margin-bottom: 10px;
   text-align: center;
 }
-.team-position{
+.team-position {
   margin-bottom: 16px;
 }
-.position-box{
+.position-box {
   padding-top: 30px;
-  padding-right:32px ;
-  padding-left:32px ;
-  padding-bottom:30px;
- 
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-bottom: 30px;
 }
 /* social link */
-.social-list{
+.social-list {
   align-items: center;
   justify-content: center;
 }
@@ -325,17 +322,17 @@ background: #FFFFFF;
 
 .icon {
   fill: #afb1b8;
-  width:20px; 
-  height:20px;
+  width: 20px;
+  height: 20px;
 }
 .social-link:hover .icon,
-.social-link:focus .icon{
+.social-link:focus .icon {
   fill: #fff;
 }
 .social-link:hover,
 .social-link-footer:hover,
 .social-link:focus,
-.social-link-footer:focus{
+.social-link-footer:focus {
   background-color: var(--accent-color);
 }
 
@@ -357,30 +354,30 @@ background: #FFFFFF;
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.clients-item-list{
+.clients-item-list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
 }
 
-.clients-link{
+.clients-link {
   display: flex;
   align-items: center;
   width: 170px;
   height: 92px;
-  border: 1px solid #AFB1B8;
-border-radius: 4px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
-.icon-clients{
-  fill: #AFB1B8;;
+.icon-clients {
+  fill: #afb1b8;
 }
 .clients-link:hover,
-.clients-link:focus{
- border:1px solid var(--accent-color);
+.clients-link:focus {
+  border: 1px solid var(--accent-color);
 }
 .clients-link:hover .icon-clients,
-.clients-link:focus .icon-clients{
+.clients-link:focus .icon-clients {
   fill: var(--accent-color);
 }
 /* footer */
@@ -502,11 +499,7 @@ footer {
   color: inherit;
   font-size: 16px;
   line-height: 1.8;
-
-
 }
-
-
 
 .portfolio-title {
   font-weight: 700;
@@ -524,6 +517,7 @@ footer {
   border-bottom: 1px solid var(--border-color);
 }
 .portfolio-link:hover,
-.portfolio-link:focus{
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-} 
+.portfolio-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
